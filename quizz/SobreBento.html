@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento de Jesus Caraça</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: var(--bs-nav-pills-border-radius);
+        color: #000;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .nav-pills .nav-link:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.6);
+        transform: translateY(-2px);
+    }
+
+    .logo-img {
+      height: 60px;
+    }
+
+
+    .main-content {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 40px 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .main-title {
+      font-size: 2.5rem;
+      color: #00586b;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px solid #00bcd4;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    h2 {
+      color: #007bff;
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.8rem;
+    }
+
+    h2::before {
+      content: '\f3a5';
+      font-family: 'Bootstrap Icons';
+      color: #007bff;
+      font-size: 1.5rem;
+    }
+
+    .text-content p, .text-content ul {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    .text-content ul {
+      padding-left: 1.5rem;
+      list-style: none;
+    }
+
+    .text-content ul li::before {
+      content: '\f26e';
+      font-family: 'Bootstrap Icons';
+      margin-right: 8px;
+      color: #17a2b8;
+    }
+
+    .table {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding-top: 2rem;
+    }
+
+    footer a {
+      color: #ffffff;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    .footer-logo {
+      height: 60px;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+    <nav id="navbar-example2" class="navbar px-3 mb-3" style="background-color: rgba(0, 184, 212, 0.7);">
+       <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo E.P. Bento de Jesus Caraça"
+               class="logo-img"></a>
+       <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="inicio.html">Início</a>
+           <li class="nav-item">
+               <a class="nav-link" href="SobreBento.html">Sobre Bento</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="SobreNos.html">Sobre Nós</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="Quiz.html">Quiz</a>
+           </li>
+           <!-- <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                   aria-expanded="false">Dropdown</a>
+               <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                   <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                   <li>
+                       <hr class="dropdown-divider">
+                   </li>
+                   <button type="button" class="btn btn-dark">Quiz</button>
+                   <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+               </ul>
+           </li> -->
+       </ul>
+   </nav>
+
+  <!-- Conteúdo principal -->
+  <section class="main-content my-5 mx-3 mx-md-auto" style="max-width: 900px;">
+    <div class="container text-content">
+      <h1 class="main-title">Sobre Bento de Jesus Caraça</h1>
+
+          <h2>Uma Vida Dedicada ao Conhecimento e à Liberdade</h2>
+      <p>Bento de Jesus Caraça foi muito mais do que um matemático brilhante. Foi um educador visionário, um intelectual comprometido com o progresso social e um dos rostos mais emblemáticos da resistência antifascista em Portugal.</p>
+
+      <h2>As Raízes de um Intelectual</h2>
+      <p>Nascido a 18 de abril de 1901, em Vila Viçosa, Bento foi filho de trabalhadores rurais. Aos dois meses, a família muda-se para Aldeias de Montoito, onde o pai trabalhava como feitor na Herdade da Casa Branca.</p>
+      <p>Desde cedo revelou uma enorme curiosidade intelectual. Aos cinco anos, aprendeu a ler com a Cartilha Maternal de João de Deus, oferecida por José Percheiro. Com apenas 10 anos, terminou a escola primária com distinção e iniciou um percurso académico notável que o levou ao Liceu de Santarém e depois ao Liceu Pedro Nunes, em Lisboa.</p>
+
+      <h2>Trajetória Académica de Excelência</h2>
+      <ul>
+        <li>1918 – Ingressa no Instituto Superior de Ciências Económicas e Financeiras (ISEG)</li>
+        <li>1919 – Nomeado 2.º assistente</li>
+        <li>1923 – Conclui a licenciatura em Matemática</li>
+        <li>1924 a 1929 – De 1.º assistente a professor catedrático</li>
+        <li>1930 a 1941 – Publica obras fundamentais como <em>Interpolação e Integração Numérica</em>, <em>Cálculo Vectorial</em> e <em>Conceitos Fundamentais da Matemática</em></li>
+      </ul>
+      <p>Foi também divulgador científico, fundador da Biblioteca Cosmos, que democratizou o acesso à cultura em Portugal.</p>
+
+      <h2>Pensamento e Ação</h2>
+      <p>A sua célebre conferência <strong>A Cultura Integral do Indivíduo – Problema Central do Nosso Tempo</strong> (1933) marcou uma geração. Defendia que a cultura devia ser acessível a todos e que a educação era a chave para a liberdade.</p>
+      <p>Acreditava que a Matemática era uma ferramenta para formar raciocínios lógicos e transformar consciências. Viu na ciência o motor de uma sociedade justa, moderna e esclarecida.</p>
+
+      <h2>Iniciativas Científicas e Educativas</h2>
+      <ul>
+        <li>1936 – Funda o Núcleo de Matemática, Física e Química</li>
+        <li>1938 – Co-funda o Centro de Estudos de Matemáticas Aplicadas à Economia</li>
+        <li>1941 – Lança a Biblioteca Cosmos</li>
+      </ul>
+
+      <h2>Vida Pessoal e Valores Humanos</h2>
+      <p>Apesar de viver em Lisboa, apoiou os pais durante toda a vida e garantiu-lhes uma casa. Assumiu a educação do sobrinho João, afastando-o do trabalho rural.</p>
+      <ul>
+        <li>1926 – Casa com Maria Octávia, que falece em 1927</li>
+        <li>Anos depois, casa com Cândida, com quem tem o filho João Manuel Gaspar Caraça</li>
+      </ul>
+
+      <h2>O Intelectual Militante</h2>
+      <p>Com a ascensão do fascismo, intensifica o envolvimento político:</p>
+      <ul>
+        <li>Participa na Liga Contra a Guerra e o Fascismo e no Socorro Vermelho Internacional</li>
+        <li>1943 – Fundador do MUNAF</li>
+        <li>1945 – Fundador do MUD</li>
+        <li>1946 – Expulso da universidade pelo regime</li>
+      </ul>
+      <p>Nunca abdicou dos seus ideais: liberdade, justiça social e conhecimento acessível.</p>
+
+      <h2>Últimos Anos e Legado</h2>
+      <p>Bento de Jesus Caraça faleceu em 25 de junho de 1948, em Lisboa, vítima de doença cardíaca. O seu pensamento permanece atual: educação como libertação, ciência como progresso e cultura como direito universal.</p>
+
+      <h2>Linha do Tempo – Datas Marcantes</h2>
+      <table class="table table-striped table-bordered mt-3">
+        <thead>
+          <tr>
+            <th>Ano</th>
+            <th>Acontecimento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1901</td><td>Nasce em Vila Viçosa</td></tr>
+          <tr><td>1902</td><td>Vai viver para Aldeias de Montoito</td></tr>
+          <tr><td>1911</td><td>Termina a escola primária com distinção</td></tr>
+          <tr><td>1913</td><td>Frequenta o Liceu Pedro Nunes, Lisboa</td></tr>
+          <tr><td>1918</td><td>Entra no ISCEF (ISEG)</td></tr>
+          <tr><td>1923</td><td>Licencia-se</td></tr>
+          <tr><td>1929</td><td>Torna-se professor catedrático</td></tr>
+          <tr><td>1930</td><td>Publica Interpolação e Integração Numérica</td></tr>
+          <tr><td>1933</td><td>Proferida a conferência sobre a cultura integral</td></tr>
+          <tr><td>1941</td><td>Cria a Biblioteca Cosmos</td></tr>
+          <tr><td>1943</td><td>Presidente da Sociedade Portuguesa de Matemática</td></tr>
+          <tr><td>1945</td><td>Integra o MUD</td></tr>
+          <tr><td>1946</td><td>Expulso da universidade pelo regime</td></tr>
+          <tr><td>1948</td><td>Morre em Lisboa</td></tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+
+
+    <footer class="bg-dark text-white pt-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- LOGO + TEXTO -->
+            <div class="col-md-6 d-flex align-items-center mb-3 mb-md-0">
+<img src="img/rodape.png" alt="" style="max-height: 80px; width: auto; transform: scale(3.5); transform-origin: left center;" class="me-3">
+    
+        </div>
+            <div class="col-md-6 text-md-end">
+                <p class="mb-1">Email: <a href="mailto:geral@epbjc.pt" class="text-white text-decoration-underline">geral@epbjc.pt</a></p>
+                <div class="d-flex justify-content-md-end gap-3 fs-5">
+            <a href="https://epbjc.pt/barreiro/" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/school/escola-profissional-bento-de-jesus-cara%C3%A7a/" class="text-white"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@EPBJCFACEBOOK" class="text-white"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/_leonardo.007/" class="text-white"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-primary mt-4">
+
+        <div class="text-center pb-3">
+            <small>© 2025 EPBJC – Todos os direitos reservados</small>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
